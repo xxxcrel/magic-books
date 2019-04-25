@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Rethrowing",
+            "request": "launch",
+            "mainClass": "Rethrowing",
+            "projectName": "magic-books_e3dcdcf6"
+        }
+    ]
+}

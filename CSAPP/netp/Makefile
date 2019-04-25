@@ -15,6 +15,9 @@ PROGS =	echo.o\
 	echoserveri\
 	tiny/tiny\
 	netpfragments.o\
+	server\
+
+server: server.o echo.o
 
 all: $(CSAPP_SRC)/csapp.o $(PROGS) 
 $(PROGS): $(CSAPP_SRC)/csapp.o

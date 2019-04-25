@@ -81,10 +81,12 @@ hello-asm32: hello-asm32.s
 hello-asm64: hello-asm64.s
 	$(CC) -m64 -o hello-asm64 hello-asm64.s
 
+#makefile automatic derivation
 $(PROGS): $(CSAPP_SRC)/csapp.o
 
 $(CSAPP_SRC)/csapp.o: $(CSAPP_SRC)/csapp.c $(CSAPP_INC)/csapp.h
 
+myecho1: myecho1.c
 clean:
 	rm -f $(PROGS) *.o *~
 

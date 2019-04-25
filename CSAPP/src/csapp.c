@@ -1010,6 +1010,7 @@ int open_clientfd(char *hostname, char *port)
 /* $begin open_listenfd */
 int open_listenfd(char *port)
 {
+    char buf[MAXBUF];
     struct addrinfo hints, *listp, *p;
     int listenfd, rc, optval = 1;
 

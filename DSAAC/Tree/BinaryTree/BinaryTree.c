@@ -280,4 +280,3 @@ int Depth(BinTree BT)//输出的是整个二叉树的深度
 		return (DepthOfLeft > DepthOfRight) ? DepthOfLeft + 1 : DepthOfRight + 1;
 	}
 }
-
