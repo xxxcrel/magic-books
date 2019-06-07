@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ToyTest",
+            "request": "launch",
+            "mainClass": "typeinfo.toys.ToyTest",
+            "projectName": "magic-books_2cb69353"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "typeinfo.Test",
+            "projectName": "magic-books_2cb69353"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Immutable",
+            "request": "launch",
+            "mainClass": "Immutable",
+            "projectName": "magic-books_e3dcdcf6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GreenhouseController",
+            "request": "launch",
+            "mainClass": "GreenhouseController",
+            "projectName": "magic-books_e3dcdcf6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Rethrowing",
             "request": "launch",
             "mainClass": "Rethrowing",

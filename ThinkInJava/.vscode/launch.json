@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AtUnitComposition",
+            "request": "launch",
+            "mainClass": "annotations.AtUnitComposition",
+            "projectName": "TIJ4_bdcd239b"
+        }
+    ]
+}
